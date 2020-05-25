@@ -1,0 +1,140 @@
+.itemCard {
+  border: 2px solid #ffe8ed;
+  border-radius: 10px;
+  margin: 10px;
+  -webkit-box-shadow: 0px 10px 20px -6px rgba(212, 212, 212, 0.49);
+  -moz-box-shadow: 0px 10px 20px -6px rgba(212, 212, 212, 0.49);
+  box-shadow: 0px 10px 20px -6px rgba(212, 212, 212, 0.49);
+}
+
+.itemCard img {
+  height: 400px !important;
+}
+
+.omnilifeTitle {
+  font-size: 72px;
+  background: linear-gradient(to right, #730081 0%, #f78e00 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  direction: ltr;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+.joinToUs {
+  font-size: 80px;
+  background: linear-gradient(to right, #FFA777 0%,#FF20E5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 80px;
+  direction: ltr;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size:5vw; font-weight: 700;
+}
+.btnCatalogo {
+  text-align: center;
+  border-radius: 50%;
+  margin-top: 50px;
+  background: linear-gradient(to right, #403436 0%, #b37f89 100%) !important;
+  height: 50px;
+  width: 300px;
+  vertical-align: middle;
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  font-size: 20px !important;
+}
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 30px;
+
+  -webkit-box-shadow: 0px 10px 41px -14px rgba(120, 120, 120, 1);
+  -moz-box-shadow: 0px 10px 41px -14px rgba(120, 120, 120, 1);
+  box-shadow: 0px 10px 41px -14px rgba(120, 120, 120, 1);
+
+  z-index: 100;
+}
+.float:hover {
+  background-color: #fff;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+
+.catalogoTitle {
+  color: #fff !important;
+  font-weight: 400 !important;
+}
+
+.catalogoSubtitle {
+  color: #fff !important;
+}
+
+
+.hed{
+  height: 600px;
+  width: 100vw;
+  background: black;
+  overflow: hidden;
+   /*   background: #C33764;fallback colour. Make sure this is just one solid colour. */
+
+}
+
+.btnJoin{
+
+  text-align: center;
+  border-radius: 50%;
+  margin-top: 50px;
+  background: #fff !important;
+  height: 50px;
+  width: 300px;
+  color:#C33764 !important; 
+  vertical-align: middle;
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  font-size: 20px !important;
+}
+
+
+.btnCa{
+
+  text-align: center;
+  border-radius: 50%;
+  margin-top: 50px;
+  background: transparent !important;
+  height: 50px;
+  margin-left: 5px;
+  width: 400px;
+  padding: 0% !important;
+  color:#C33764 !important; 
+  vertical-align: middle;
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  font-size: 20px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .btnCa{
+    font-size: 15px !important;
+    width: 300px;
+    padding: 0% !important;
+  }
+}
