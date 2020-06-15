@@ -22,14 +22,17 @@
 
 .joinToUs {
   font-size: 80px;
-  background: linear-gradient(to right, #FFA777 0%,#FF20E5 100%);
+
+  background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   line-height: 80px;
   direction: ltr;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   text-transform: uppercase;
-  font-size:5vw; font-weight: 700;
+  font-size: 5vw;
+  font-weight: 700;
 }
 .btnCatalogo {
   text-align: center;
@@ -82,25 +85,23 @@
   color: #fff !important;
 }
 
-
-.hed{
-  height: 600px;
+.hed {
+  height: auto;
   width: 100vw;
-  background: black;
+  border-radius: 20px;
+  background: rgb(255, 255, 255);
   overflow: hidden;
-   /*   background: #C33764;fallback colour. Make sure this is just one solid colour. */
-
+  /*   background: #C33764;fallback colour. Make sure this is just one solid colour. */
 }
 
-.btnJoin{
-
+.btnJoin {
   text-align: center;
   border-radius: 50%;
   margin-top: 50px;
   background: #fff !important;
   height: 50px;
   width: 300px;
-  color:#C33764 !important; 
+  color: #c33764 !important;
   vertical-align: middle;
   font-weight: 700 !important;
   text-transform: uppercase;
@@ -110,9 +111,7 @@
   font-size: 20px !important;
 }
 
-
-.btnCa{
-
+.btnCa {
   text-align: center;
   border-radius: 50%;
   margin-top: 50px;
@@ -121,7 +120,7 @@
   margin-left: 5px;
   width: 400px;
   padding: 0% !important;
-  color:#C33764 !important; 
+  color: #c33764 !important;
   vertical-align: middle;
   font-weight: 700 !important;
   text-transform: uppercase;
@@ -132,7 +131,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .btnCa{
+  .btnCa {
     font-size: 15px !important;
     width: 300px;
     padding: 0% !important;
